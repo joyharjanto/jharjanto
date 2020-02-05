@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee|Karma|Nanum+Gothic+Coding:700&display=swap');
 *{
   font-family: 'Karma', serif;
-  color: #36648b;
   background-color: #fffff2;
 }
 
@@ -35,7 +34,7 @@ img{
 }
 
 
-a, .title > a {
+a, .title > a{
 	color: #36648b;
   padding: 5px;
   text-decoration: none;
@@ -46,10 +45,19 @@ a, .title > a {
 }
 
 a:hover, .title > a:hover {
-	/*color: #C26AA0;*/
   background-color: #ffc0cb;
 }
 
 p{
+  color: #36648b;
+  text-align: left;
+}
+
+.special-color{
+  color: #8a278b;
+}
+
+ul>li{
+  color: #36648b;
   text-align: left;
 }
