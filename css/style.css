@@ -53,9 +53,11 @@ p{
   text-align: left;
 }
 
-.special-color{
+.special-color, h2, h3{
   color: #8a278b;
 }
+
+
 
 ul>li{
   color: #36648b;

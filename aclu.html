@@ -13,9 +13,29 @@
 </header>
 
   <br>
-  <a href="index.html"> return to home </a>
+
+  <p>About a week after graduation, I moved to New York City packed with four years worth of belongings and clutter stuffed into two lofty suitcases for my summer internship at the ACLU. </p>
+
+  <p>The American Civil Liberties Union is a non-profit legal organization that defends legal rights. It maintains a record of donations received dating back to the early 90s. If I were to forecast future donations using data points prior to 2016, it is a relatively straightforward task since the data is stationary. But 2016 introduced outliers and complexity to the data.  </p>
+
+  <p>2016 was the year Trump got elected into the office, enraging millions around the world. Many even made their first donation to the ACLU. The sudden increase introduced outliers to the data set. The ACLU is seen as an organization that can fight the policies imposed by the Trump administration. Each time Trump did something, like the muslim ban or the family separation, which enraged people, millions would make donations. But with time, the magnitude of the outlying donations would gradually decrease. </p>
+
+  <p>Because the data points was no longer stationary, we could no longer rely on ARIMA modeling to do financial projections. </p>
+
+  <p>This was such a unique challenge for many reasons. One of which is because this problem is unique to only a few organizations. No matter what I attempted to look up online, I couldn’t find a one stop solution. There were retail companies and tech companies that experienced these surges, but there was some seasonal component to it. </p>
+
+  <p>I knew I wanted to split the data into train and test points, so I could gauge the reliability of my model using mean square error. But I wasn’t sure when to make the split. I wondered which year and months I should include in the test data set. Soon, a long list of questions casts its shadow over me.  </p>
+
+  <p>I wondered if there were other factors such as geographic distribution or news coverage that affected these numbers. If that was the case, how was I supposed to get the data or quantify the effect? I also wondered if these types of donors donated a particular amount, and how the outcome of the 2020 election would affect the donations. But a question that plagued me the most was how was I supposed to know if I was doing it right? </p>
+
+  <p>It took my entire summer internship, and a lot of trial and error. I started my project by trying to answer the smaller scale questions before moving towards the big ones.  It was daunting as I never worked with so many uncertain variables. Sometimes a model looked promising, but if I ran it on a different day, the results suddenly differed drastically, I would have to start over.  </p>
+
+  <p>My supervisor gave me the space to explore the challenges myself and trusted me to make the decisions, making the experience such a positive educational experience. In the end, I used a time series linear regression model to come up with the predictions. Tweaking the model using variables I concluded significantly affected the past numbers. I chose the final model based on the one with the lowest MSE, even though there was some fear of overfitting. The best way to go about it is to tweak the model from time to time as the main factors that drove the model weren’t quantitative.  </p>
+
+  <p>Beyond the project, I realized what it meant to be a data scientist. To feel comfortable with feeling dumb and lost amid certainties. And to go through it only way millions of scientists before me know how, through persistency amid repeated trial and error. </p>
   <br>
 
+  <a href="index.html"> return home </a>
   <br>
 
 
