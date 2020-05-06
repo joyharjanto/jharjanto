@@ -6,10 +6,8 @@
 
 }
 
-header, header>#special-color{
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.5em;
+header{
+  font-size: 25px;
 }
 
 body {
@@ -59,7 +57,7 @@ p{
   text-align: left;
 }
 
-#special-color, header>#special-color, h2, h3{
+#special-color, h2, h3{
   color: #8a278b;
 }
 
