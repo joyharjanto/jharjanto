@@ -2,16 +2,14 @@
 *{
   font-family: 'Karma', serif;
   background-color: #fffff2;
+  font-weight: 700;
+
 }
 
 header{
   text-align: center;
-}
-
-header > h1{
-  text-align: center;
-  font-style: bold;
-	font-weight: 800;
+  font-weight: 700;
+  font-size: 2.5em;
 }
 
 body {
@@ -33,9 +31,8 @@ img{
   margin-right: auto;
 }
 
-
-a, .title > a{
-	color: #36648b;
+a.fancy{
+  color: #36648b;
   padding: 5px;
   text-decoration: none;
   border-bottom: 1px dotted;
@@ -44,9 +41,18 @@ a, .title > a{
   text-align: center;
 }
 
-a:hover, .title > a:hover {
+a.fancy:hover{
   background-color: #ffc0cb;
 }
+
+a.just_underline{
+  color: #8a278b;
+  padding: 0.05px;
+  border-bottom: 0.5px dotted;
+  text-decoration: none;
+
+}
+
 
 p{
   color: #36648b;
@@ -56,8 +62,6 @@ p{
 .special-color, h2, h3{
   color: #8a278b;
 }
-
-
 
 ul>li{
   color: #36648b;
