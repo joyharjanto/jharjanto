@@ -46,9 +46,17 @@ a.fancy:hover{
 a.just_underline{
   color: #8a278b;
   padding: 0.05px;
-  border-bottom: 0.5px dotted;
   text-decoration: none;
 
+}
+
+a.project{
+  color: #36648b;
+  padding: 0.05px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  border-width: thin;
+  border-color: #ff9999;
 }
 
 
