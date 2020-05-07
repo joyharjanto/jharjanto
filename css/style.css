@@ -10,6 +10,12 @@ header > h1{
   color: #8a278b;
 }
 
+a.homepage{
+  color: #8a278b;
+  padding: 0.05px;
+  text-decoration: none;
+}
+
 body {
 	max-width: 600px;
 	margin: auto;
@@ -68,6 +74,11 @@ p{
 #special-color, h2, h3{
   color: #8a278b;
 }
+
+#just-color{
+  color: #3B0808;
+}
+
 
 ul>li{
   color: #36648b;
