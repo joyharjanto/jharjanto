@@ -56,6 +56,10 @@ a.just_underline{
 
 }
 
+a.just_underline:hover{
+  color: #333300;
+}
+
 a.project{
   color: #36648b;
   padding: 0.05px;
