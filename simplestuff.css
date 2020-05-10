@@ -1,0 +1,9 @@
+a{
+	text-decoration: none;
+	border-bottom: 5px dotted yellow;
+	transition: border-bottom: 1s;
+}
+
+a:hover{
+	border-bottom: 10px dotted red;
+}
