@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <div class="mx-auto" style="width: 200px;">
+    <title> Joy Harjanto </title>
+  </div>
+  <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- <script type=text/javascript src="{{url_for('static', filename='script.js') }}"></script> -->
+  <link rel="icon" href="img/icon2.jpg">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+	 <header>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <!-- <div class="col-sm">
+          </div> -->
+          <div class="col-sm" class ="pb-5">
+            <h1 id ="special-color"> {% block head %} {% endblock %} </h1>
+          </div>
+          <!-- <div class="col-sm">
+          </div> -->
+          <div class="col-sm">
+          </div>
+          <!-- <div class="col-sm">
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+   <nav class ="pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+         
+        </div>
+        <div class="col-sm">
+          <a href="/" class="fancy">home</a>
+          <a href="https://docs.google.com/document/d/1Q2pUAx5i62HyWyDkTWB_RhG29mWc60QLwSKh8_B6koU/edit?usp=sharing" class="fancy">reading list</a>
+          <a href="/projects" class="fancy">projects</a>
+        </div>
+        <div class="col-sm">
+        
+        </div>
+      </div>
+    </div>
+    </nav>
+
+<div class ="px-3">
+{% block body %}{% endblock %}
+</div>
+</body>
+</html>

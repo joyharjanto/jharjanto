@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Karma|Nanum+Gothic+Coding:700&display=swap');
+
+*{
+    font-family: 'Karma', serif; 
+
+    /* background-color: #fffff2 !important; */
+  
+}
+
+img{
+    height: 300px;
+    border-radius: 50%;
+}
+
+body {
+  background-color: #fffff2 !important;
+  color: #36648b;
+  /* max-width: 700px;
+	margin-left: 200px; */
+	/* padding: 2.5em;
+	line-height: 1.5;
+  text-align: center; */
+}
+
+p{
+  color: #36648b;
+  max-width: 700px;
+  text-align: left;
+  margin: 10px auto 10px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

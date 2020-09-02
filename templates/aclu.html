@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang = "en">
 <head>
   <title> Joy Harjanto </title>
@@ -10,8 +10,12 @@
     <span id ="special-color"><h1>Financial Projections for the American Civil Liberties Union</h1></span>
     <a href="https://docs.google.com/document/d/1Q2pUAx5i62HyWyDkTWB_RhG29mWc60QLwSKh8_B6koU/edit?usp=sharing" class="fancy">reading list</a>
     <a href="projects.html" class="fancy">projects</a>
-</header>
-
+</header> -->
+{% extends 'base.html' %}
+{% block head %}
+Selected work
+{% endblock %}
+{% block body %}
   <br>
 
   <p>About a week after graduation, I moved to New York City packed with four years worth of belongings and clutter stuffed into two lofty suitcases for my summer internship at the ACLU. </p>
@@ -35,8 +39,8 @@
   <p>Beyond the project, I realized what it meant to be a data scientist. To feel comfortable with feeling dumb and lost amid uncertainties. And to go through it only way millions of scientists before me know how, through persistency amid repeated trial and error. </p>
   <br>
 
-  <a href="index.html" class="fancy"> return home </a>
   <br>
 
+{% endblock %}
 
-</body>
+<!-- </body> -->
